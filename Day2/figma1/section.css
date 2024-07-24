@@ -1,0 +1,76 @@
+.main{
+  background-image: url(images/background-image.png);
+  height: 650px;
+  position: relative;
+}
+
+.app , p{
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.theme{
+   text-align: center;
+   padding-top: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+   font-weight: bold;
+   font-size: 70px;
+}
+
+
+.download{
+
+  text-align: center;
+}
+
+.download button{
+  margin-top: 50px;
+  margin-left: 20px;
+  padding:10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+  width: 200px;
+}
+
+.play-store{
+  background-color: orangered;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+.app-store{
+  background: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  border: solid 1px white;
+}
+
+.mobile-picture{
+  color: white;
+  position: absolute;
+  text-wrap: wrap;
+}
+
+
+.phone1{
+  width: 500px;
+  margin-left: 150px;
+  
+}
+
+.phone2{
+
+  background-color: aliceblue;
+  width: 250px;
+
+
+}

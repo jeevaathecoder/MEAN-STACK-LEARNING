@@ -1,0 +1,19 @@
+meta {
+  name: Update CUstomer
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3000/customer/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    
+      "name": "Jeeva",
+      "city": "x"
+  }
+}

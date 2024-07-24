@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <button class="subscribe-btn" onclick="handleSubscribe()">
+            Subscribe
+        </button>
+        <button class="add-to-cart" onclick="handleAddtoCart()">
+            Add to Cart
+        </button>
+        <p class="cart-status"></p>
+        <script>
+        const handleSubscribe = ()=>{
+            const status = document.querySelector('.subscribe-btn');
+            
+            if(status.innerHTML == 'Subscribe'){
+              status.innerHTML='Subscribed'
+            }
+            else{
+              status.innerHTML='Subscribe'
+            }
+        }
+
+
+        const handleAddtoCart = ()=>{
+          const cartStatus = document.querySelector('.cart-status');
+          const addToCart = "Cart Added Sucessfully";
+          console.log(cartStatus.innerHTML)
+          if(cartStatus.innerHTML==""){
+           
+            cartStatus.innerHTML+=addToCart;
+          }
+          else{
+            cartStatus.innerHTML="";
+          }
+        }
+        </script>
+    </body>
+</html>

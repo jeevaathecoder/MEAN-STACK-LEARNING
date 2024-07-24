@@ -1,0 +1,20 @@
+meta {
+  name: add Student
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/add
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"ram",
+    "email":"ram@gmail.com",
+    "dept":"cst",
+    "clg":"MEC"
+  }
+}

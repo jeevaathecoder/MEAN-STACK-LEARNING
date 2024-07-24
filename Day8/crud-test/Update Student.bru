@@ -1,0 +1,20 @@
+meta {
+  name: Update Student
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3000/update/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "two",
+      "email": "two@gmail",
+      "dept": "cse",
+      "clg": "mec"
+  }
+}

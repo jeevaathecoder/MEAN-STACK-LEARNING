@@ -1,0 +1,183 @@
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .left-section img {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+  }
+
+  .middle-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+  }
+
+  .search-bar {
+    flex: 1;
+    height: 50px;
+    max-width: 70%;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+  }
+
+  .search-bar:focus {
+    border: solid 2px rgb(254, 189, 105);
+  }
+
+  .search-bar::placeholder {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .search-icon-button {
+
+    background-color: rgb(254, 189, 105);
+    height: 52px;
+    margin-left: -2px;
+    width: 70px;
+    padding-right: 20px;
+
+  }
+
+  .search-icon-button img {
+
+    width: 30px;
+    margin-left: 10px;
+  }
+
+
+  .right-section {
+    width: 20%;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .returns {
+    font-size: 18px;
+  }
+
+  .orders {
+    font-weight: bold;
+  }
+
+  .cart-section {
+    display: flex;
+
+  }
+
+  .cart-image img {
+    width: 60px;
+    padding-left: 30px;
+  }
+
+  .cart-text {
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .cart-section {
+    position: relative;
+  }
+
+  .cart-count {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    font-size: 14px;
+  }
+
+  .cart-icon {
+    width: 60px;
+  }
+
+  .logo-small {
+    display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .search-bar {
+      max-width: 60%;
+      font-size: 14px;
+    }
+
+    .returns {
+      font-size: 12px;
+    }
+
+    .orders {
+      font-size: 12px;
+    }
+
+    .cart-icon {
+      width: 30px;
+    }
+
+    .cart-count {
+      font-size: 12px;
+      right: 15px;
+    }
+
+    .cart-text {
+      font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logo-big {
+      display: none;
+    }
+
+    .logo-small {
+      display: inline;
+      width: 100px;
+    }
+
+    .middle-section {
+      flex: 2;
+    }
+
+    .search-bar {
+      height: 40px;
+      max-width: 50%;
+      font-size: 12px;
+    }
+
+    .search-icon-button {
+      height: 42px;
+      width: 40px;
+    }
+
+    .returns {
+      font-size: 10px;
+    }
+
+    .orders {
+      font-size: 10px;
+    }
+
+    .cart-icon {
+      width: 25px;
+    }
+
+    .cart-count {
+      font-size: 10px;
+      right: 10px;
+    }
+
+    .cart-text {
+      font-size: 10px;
+    }
+  }

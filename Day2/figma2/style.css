@@ -1,0 +1,36 @@
+body{
+  background: #fff8f0;
+  font-family: Inter;
+
+  font-weight: 400;
+  line-height: 24px;
+  color: #55206D;
+}
+
+h1{
+  font-family: Leauge Spartan;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #190D37;
+}
+
+h2{
+  font-family: Leauge Spartan;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  counter-reset: #000;
+  color: #190D37;
+}
+
+.bigtext{
+  color: #331E6A;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  
+}

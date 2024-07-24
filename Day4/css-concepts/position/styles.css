@@ -1,0 +1,32 @@
+body{
+  height: 200vh;
+  width: 110vh;
+}
+.main-container{
+  border: 5px solid red;
+  height: 22rem;
+  width: 20rem;
+  color: white;
+  
+  position: relative  ;
+}
+
+
+.div-container{
+  background-color: rebeccapurple;
+  height: 7rem;
+  width: 7rem;
+  border: 3px solid aqua;
+}
+
+
+.div1{
+  position: relative;
+  right: 0;
+}
+.div2{
+  
+  position: absolute;
+  bottom: 0  ;
+}
+

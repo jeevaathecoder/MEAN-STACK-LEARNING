@@ -1,0 +1,31 @@
+.logo img{
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.header{
+  display: flex;
+  height: 100px;
+}
+
+.navbar{
+
+  flex: 1;
+
+  align-items: center;
+}
+
+.list-items{
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  padding-top: 35px;
+  font-weight: bold;
+}
+
+.list-items li{
+  margin-right: 35px;
+}
+
+
